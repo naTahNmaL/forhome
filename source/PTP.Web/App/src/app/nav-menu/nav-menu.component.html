@@ -1,0 +1,51 @@
+<nav  class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top ">
+    <div class="container-fluid px-md-3 px-xxl-4">
+      <a ngPreserveWhitespaces class="navbar-brand" routerLink="Home/Journey">
+        <img src="assets/logo.png" class="d-inline-block align-top" alt="logo">
+      </a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".menuItemsContainer">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div  class="collapse navbar-collapse menuItemsContainer">
+        <ul class="nav nav-pills flex-column flex-lg-row flex-fill">
+          <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+            <a class="nav-link" routerLink=""><i class="fa fa-home"></i></a>
+          </li>
+          <li class="nav-item" routerLinkActive="active" >
+            <a class="nav-link" routerLink="Home/Journey">Journey</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="/Company/New">Company</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="/Customer">Customer</a>
+          </li>
+
+          <li class="nav-item ms-lg-auto me-lg-2" routerLinkActive="active">
+            <a class="nav-link" routerLink="/settings"><i class="fa fa-cog"></i></a>
+          </li>
+        </ul>
+        <ul class="nav nav-pills flex-column flex-lg-row ms-lg-1">
+          <li class="nav-item" routerLinkActive="active" *ngIf="guest">
+            <a class="nav-link" routerLink="/Login">Login</a>
+          </li>
+        <li class="nav-item" routerLinkActive="active" *ngIf="isLogin">
+          <a class="nav-link" routerLink="/User">Hi {{_user.userName}}</a>
+        </li>
+
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" >Fr</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" >En</a>
+          </li>
+
+
+<!--          <li class="nav-item" >-->
+<!--            <a class="nav-link" href="javascript:;"><i class="fa fa-sign-out"></i> Login/Logout</a>-->
+<!--          </li>-->
+        </ul>
+      </div>
+    </div>
+  </nav>
+

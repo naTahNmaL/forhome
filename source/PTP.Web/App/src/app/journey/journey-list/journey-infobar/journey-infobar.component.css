@@ -1,0 +1,19 @@
+mat-table{
+  width: 100%;
+}
+
+.mat-column-checkAll{
+  width: 5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.pagination button {
+  min-width: 32px;
+}
+

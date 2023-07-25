@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "pUv3P4aULrvZPom08eGq6jPmd5pyHYtWNasanSJkO8BkTCWNGMwUxEJqHaMk4hlMvOGhn95UqyQiKo/d31mERw==",
+  "success": true,
+  "projectFilePath": "D:\\LAMA\\ProjectTraining\\PTP\\PTP.Common\\PTP.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LAMA\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\ninject\\3.3.4\\ninject.3.3.4.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\ninject.web.aspnetcore\\6.0.0\\ninject.web.aspnetcore.6.0.0.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\ninject.web.common\\3.3.2\\ninject.web.common.3.3.2.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\ninject.web.common.selfhost\\3.3.2\\ninject.web.common.selfhost.3.3.2.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\LAMA\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

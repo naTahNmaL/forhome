@@ -1,0 +1,81 @@
+<div class="form-container mt-3 mb-4">
+  <form [formGroup]="searchForm" (ngSubmit)="onSubmit()">
+    <div class="form-row row row-cols-12  row-no-gutters">
+      <mat-form-field appearance="outline" class="form-field col-lg-9" >
+        <mat-label>Search by Name, Description</mat-label>
+        <input matInput type="text"  formControlName="searchString">
+      </mat-form-field>
+      <div class="col-lg-1 label"><b>Status</b></div>
+      <mat-form-field appearance="outline" class="form-field form-field-small  col-lg-2" >
+        <mat-label>Status</mat-label>
+        <mat-select formControlName="status">
+          <mat-option value="Planning">Planning</mat-option>
+          <mat-option value="In progress">In progress</mat-option>
+          <mat-option value="Finished">Finished</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="form-row row row-cols-12  row-no-gutters">
+      <div class=" col-lg-1 label"><label><b>Country</b></label></div>
+      <mat-form-field appearance="outline" class="form-field form-field-small col-lg-2">
+        <mat-label>Country</mat-label>
+        <mat-select formControlName="country">
+          <mat-option value="primary">Country 1</mat-option>
+          <mat-option value="accent">Country 2</mat-option>
+          <mat-option value="warn">Country 3</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div class="col-lg-1 label"><label><b>Currency</b></label></div>
+      <mat-form-field appearance="outline" class="form-field form-field-small col-lg-2">
+        <mat-label>Currency</mat-label>
+        <mat-select formControlName="currency">
+          <mat-option value="primary">Currency 1</mat-option>
+          <mat-option value="accent">Currency 2</mat-option>
+          <mat-option value="warn">Currency 3</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div class=" col-lg-1 label"> <label><b>Amount </b> From </label> </div>
+      <mat-form-field appearance="outline" class="form-field form-field-small col-lg-2">
+          <mat-label>From</mat-label>
+          <input matInput placeholder="" value="" formControlName="amountFrom">
+        </mat-form-field>
+      <div class="col-lg-1 label"><label>To</label></div>
+      <mat-form-field appearance="outline" class="form-field form-field-small col-lg-2">
+          <mat-label>To</mat-label>
+          <input matInput placeholder="" value="" formControlName="amountTo">
+        </mat-form-field>
+    </div>
+    <div class="form-row row row-cols-12  row-no-gutters">
+      <div class="col-lg-1 label"><label><b>Start Date</b> From</label></div>
+      <mat-form-field appearance="outline" class="form-field form-field form-field-small col-lg-2">
+          <mat-label>From</mat-label>
+          <input matInput [matDatepicker]="picker1" formControlName="dateStartFrom">
+          <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+          <mat-datepicker #picker1></mat-datepicker>
+        </mat-form-field>
+      <div class="col-lg-1 label"><label>To</label></div>
+      <mat-form-field appearance="outline" class="form-field form-field form-field-small col-lg-2 ">
+          <mat-label>To</mat-label>
+          <input matInput [matDatepicker]="picker2" formControlName="dateStartTo">
+          <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+          <mat-datepicker #picker2></mat-datepicker>
+        </mat-form-field>
+      <div class="col-lg-1 label"><label><b>End Date</b> From</label></div>
+      <mat-form-field appearance="outline" class="form-field form-field-small col-lg-2 ">
+          <mat-label>From</mat-label>
+          <input matInput [matDatepicker]="picker3" formControlName="dateEndFrom">
+          <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
+          <mat-datepicker #picker3></mat-datepicker>
+        </mat-form-field>
+      <div class="col-lg-1 label"><label>To</label></div>
+      <mat-form-field appearance="outline" class="form-field  form-field-small col-lg-2 ">
+          <mat-label>To</mat-label>
+          <input matInput [matDatepicker]="picker4" formControlName="dateEndTo">
+          <mat-datepicker-toggle matSuffix [for]="picker4"></mat-datepicker-toggle>
+          <mat-datepicker #picker4></mat-datepicker>
+        </mat-form-field>
+    </div>
+    <button mat-raised-button class="btn-block col-lg-1" color="primary" [disabled]="searchForm.invalid">Search</button>
+    <button mat-stroked-button class="btn-block col-lg-1" (click)="clearForm()">Reset</button>
+  </form>
+</div>
