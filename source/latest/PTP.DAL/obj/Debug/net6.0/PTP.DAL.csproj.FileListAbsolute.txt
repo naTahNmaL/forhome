@@ -1,0 +1,16 @@
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\bin\Debug\net6.0\PTP.DAL.deps.json
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\bin\Debug\net6.0\PTP.DAL.dll
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\bin\Debug\net6.0\PTP.DAL.pdb
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\bin\Debug\net6.0\PTP.Common.dll
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\bin\Debug\net6.0\PTP.Common.pdb
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\bin\Debug\net6.0\fr\PTP.Common.resources.dll
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\obj\Debug\net6.0\PTP.DAL.csproj.AssemblyReference.cache
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\obj\Debug\net6.0\PTP.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\obj\Debug\net6.0\PTP.DAL.AssemblyInfoInputs.cache
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\obj\Debug\net6.0\PTP.DAL.AssemblyInfo.cs
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\obj\Debug\net6.0\PTP.DAL.csproj.CoreCompileInputs.cache
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\obj\Debug\net6.0\PTP.DAL.csproj.CopyComplete
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\obj\Debug\net6.0\PTP.DAL.dll
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\obj\Debug\net6.0\refint\PTP.DAL.dll
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\obj\Debug\net6.0\PTP.DAL.pdb
+D:\LAMA\ProjectTraining\PTP\PTP.DAL\obj\Debug\net6.0\ref\PTP.DAL.dll

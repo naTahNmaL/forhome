@@ -1,0 +1,31 @@
+.page-title {
+  margin: 60px 0;
+  display: flex;
+  flex-direction: column ;
+}
+.spacer {
+  flex: 1;
+}
+.mat-input-element{
+  background-color: #F5F8FA !important;
+}
+.container-fluid {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.mat-grid-tile-content {
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
+
+.mat-mdc-standard-chip {
+  background-color: #ffffff !important;
+}
+.even-row {
+  background-color: #efefef  !important; /* Grey color for even rows */
+}
+
+.odd-row {
+  background-color: #ffffff  !important; /* White color for odd rows */
+}

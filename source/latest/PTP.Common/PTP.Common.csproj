@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Resources\SharedResources.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SharedResources.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\SharedResources.fr.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>SharedResources.fr.Designer.cs</LastGenOutput>
+        <DependentUpon>SharedResources.resx</DependentUpon>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Resources\SharedResources.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>SharedResources.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Ninject.Web.AspNetCore" Version="6.0.0" />
+    </ItemGroup>
+
+</Project>

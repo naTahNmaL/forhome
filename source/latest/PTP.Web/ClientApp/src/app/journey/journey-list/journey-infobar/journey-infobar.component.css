@@ -1,0 +1,62 @@
+mat-table{
+  width: 100%;
+}
+
+.mat-column-checkAll{
+  width: 5px;
+}
+.nameP{
+  width: 100%
+}
+.even-row {
+  background-color: #F5F5F5 !important; /* Grey color for even rows */
+}
+
+.odd-row {
+  background-color: #ffffff  !important; /* White color for odd rows */
+}
+
+.mat-mdc-standard-chip {
+  background-color: #ffffff !important;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.pagination button {
+  min-width: 32px;
+}
+
+
+/* Add more styles as needed */
+.badge-green {
+  background-color: #E8FFF3 ;
+  color: #1DC894 ;
+  width:100%;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.badge-yellow {
+  background-color:  #fff8dd;
+  color: #b6761b;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.badge-blue {
+  background-color: #00B2FF ;
+  color: #0d72d9;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

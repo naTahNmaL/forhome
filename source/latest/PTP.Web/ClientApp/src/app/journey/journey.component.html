@@ -1,0 +1,17 @@
+
+
+<mat-toolbar >
+  <div class="page-title">
+    <h2>{{_pageTitle[0]}} </h2>
+    <h4> {{_pageTitle[1]}} </h4>
+  </div>
+  <div class="spacer"></div>
+  <button class="btn btn-success" *ngIf="createJourney" (click)="createNewJourney()">
+    New Journey
+  </button>
+</mat-toolbar>
+<div class="container-fluid">
+  <router-outlet></router-outlet>
+</div>
+
+

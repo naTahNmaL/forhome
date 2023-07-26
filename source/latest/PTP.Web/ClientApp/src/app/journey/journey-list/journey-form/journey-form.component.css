@@ -1,0 +1,33 @@
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+}
+
+/*.label {*/
+/*  width: 6%;*/
+/*}*/
+/*.subname{*/
+/*  width: 5%;*/
+/*}*/
+/*.form-field-small {*/
+/*  width: 11%;*/
+/*}*/
+
+.mat-form-field {
+  flex: 1;
+}
+
+/*.btn-block {*/
+/*  width: 40%;*/
+/*  gap: 5px;*/
+/*}*/
+
+
+

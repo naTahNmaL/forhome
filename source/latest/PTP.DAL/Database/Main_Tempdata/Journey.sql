@@ -1,0 +1,2 @@
+insert into dbo.Journey (Id, UserId, Name, Description, CountryId, PlaceId, StartDate, EndDate, CurrencyId, Status, Amount, Version)
+values  (4, 2, N'Vacation in NYC', N'Family vacation to NYC', 1, 1, N'2023-07-20', N'2023-07-27', 1, N'Planned', 5000, 0);
